@@ -13,7 +13,7 @@ import pandas as pd
 #     if day_of_week == 1:
 #         print(motivation)
 #         my_email = "akinduscience@gmail.com"
-#         password = "yqma fvmg kpcp drix"
+#         password = "yix"
 #
 #         with smtplib.SMTP("smtp.gmail.com") as connect:
 #             connect.starttls()  # this will create a secure connection
@@ -29,14 +29,14 @@ import pandas as pd
  # write the email
 
 my_email = "akinduscience@gmail.com"
-password = "yqma fvmg kpcp drix"
+password = "Your password"
 
 today = dt.datetime.now()
 today_tuple = (today.month, today.day)
 
 df = pd.read_csv("userdata.csv")
 
-# this is the format of the birthday dictionary
+# This is the format of the birthday dictionary
 # birthday_dict = {
 #     (birthday_month, birthday_day) : data_row
 # }
